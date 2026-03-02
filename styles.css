@@ -734,3 +734,15 @@ a:hover {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--primary-dark);
 }
+.agile-task-highlight {
+    padding: 1.5rem;
+    background: var(--bg-primary);
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+}
+
+.agile-icon {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)) !important;
+}
+/*feat: add custom styling for agile task.*/
